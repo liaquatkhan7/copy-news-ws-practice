@@ -1,0 +1,427 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+p {
+    color: grey;
+}
+
+#wrap {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+#top {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    width: 100%;
+    height: 25px;
+    background-color: #f3f3f3;
+}
+
+.topparagraph {
+    padding: 5px 20px 5px 0px;
+    margin: 0px;
+    border: none;
+    text-align: right;
+    font-size: 12px;
+    color: grey;
+    float: left;
+    width: 75%;
+    
+    display: inline-block;
+}
+
+#top ul{
+    width: 20%;
+    margin: 0px;
+    padding: 5px 5px;
+    float: left;
+}
+
+#top li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 5px solid darkorange;
+}
+
+.headerpicture{
+    width: 80px;
+    padding: 7px 50px; 
+    float: left;
+}
+
+.headernav{
+    width: 650px;
+    float:left;     
+    margin-top: 20px;
+}
+
+.headernavtop{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headernav a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: darkorange;
+}
+
+.headernavbottom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+.headernav table td{
+    padding-left: 30px;
+}
+
+.blue{
+    color: darkslateblue;
+}
+
+#maincontentwrap{
+    background-color: #f3f3f3;
+    margin: 0px;
+    padding: 0px;
+}
+
+#sectionone{
+    background-color: #656565;
+    width: 23%;
+    margin-left: 30px;
+    margin-top: 20px;
+    float:left;
+}
+
+#sectionone p{
+    color: white;
+}
+
+.sectiononetextone{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 20px;
+   font-size: 15px;
+}
+
+.sectiononetexttwo{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 20px;
+   color: #f3f3f3;
+   font-size: 12px;
+   line-height: 0.3em;
+}
+
+#sectiontwo{
+    width:50%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #656565;
+}
+
+.sectiontwobutton{
+    margin: 10px;
+}
+
+.sectiontwobutton button{
+    display: block;
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 2px 5px; 
+}
+
+.sectiontwoheading{
+    font-weight: normal;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.sectiontwopicture {
+    margin: 20px;
+}
+
+.sectiontwoparagraphdiv1 {
+    width: 250px;
+    margin-left: 20px;
+    float: left;
+   
+}
+
+.sectiontwoparagraphdiv1 p{
+    line-height: 1.5em;
+    color: grey;
+    font-weight: bold;
+}
+
+.sectiontwoparagraphtwo{
+    font-size: 11px;
+}
+
+.sectiontwoparagraphdiv2{
+    width: 220px;
+    height: 147px;
+    float: left;
+    margin: 0px;
+    
+}
+
+.sectiontwoparagraphdiv2 p{
+    font-size: 11px;
+    color:grey;
+    font-weight: bold;
+}
+
+.sectiontwoparagraphdiv2 li{
+    padding: 5px 0px 5px 10px;
+    list-style: none;
+    font-weight: bold;
+    
+}
+
+.sectiontwoparttwo{
+    margin-top: 20px; 
+
+}
+
+.sectiontwoparttwo table{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: inline-block;
+    margin: 10px;
+}
+
+.sectiontwoparttwo td{
+    padding: 5px;
+    text-align: center;
+    padding: auto;
+}
+
+.sectiontwoparttwo th{
+    text-align: left;
+}
+
+.colorfont{
+    color:grey;
+    font-size: 11px;
+    text-align: left;
+} 
+
+.sectiontwodiv3 {
+    margin:0px 10px;
+}
+
+.sectiontwodiv3 td {
+    padding:  5px;
+    vertical-align: top;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sectiontwodiv4 {
+    background-color: #f3f3f3 ;
+    width: 100%;
+}
+
+.sectiontwodiv4 table{
+    margin: 5px 10px;
+    text-align: left;
+}
+
+.sectiontwodiv4 p{
+    margin: 10px;
+    padding: 10px;
+}
+
+.sectiontwodiv4 td, th {
+    padding: 5px; 
+    width: 150px;
+    color: black;   
+}
+
+#sectionthree{
+    margin-top: 20px;
+    border-top: 2px solid black;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 20%;
+    float: left;
+    clear: right;
+}
+
+.sectionthreediv1 {
+    padding: 5px 10px 5px 10px;
+}
+
+#sectionthree ol{
+    padding:  0px 0px 0px 20px;
+}
+
+#sectionthree li{
+   padding: 5px 0px 5px 0px;
+}
+
+.alignpicture{
+    list-style: none;
+    padding: 0px;
+    
+}
+
+.alignpicture li{
+    padding: 0px 0px 0px 5px;
+}
+
+.topdownborder {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+#caliph {
+    clear: both;
+}
+
+#caliph img {
+     border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.thecalipah{
+    width: 400px;
+    background-color: black;
+    position: absolute;
+    top: 2600px;
+    left: 50px;
+    opacity: 0.5;
+}
+
+.thecalipah h1 {
+    color: white;
+    padding: 10px;
+}
+
+.islam{
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 2700px;
+    left: 50px;
+    opacity: 0.5;
+}
+
+.aljaseratell{
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    top: 2800px;
+    left: 550px;
+    opacity: 0.5;
+}
+
+#inpictures {
+    width: 90%;
+    margin: 10px auto;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+}
+
+#inpictures table {
+    margin: 0px;
+}
+
+#inpictures td, th {
+    padding: 5px;
+    text-align: left;
+}
+
+#must-see {
+    background-color: #2d2f31;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin:0px;
+}
+
+.inside-must-see {
+    margin: auto;
+    width: 90%;
+}
+
+.inside-must-see th {
+    color: white;
+}
+
+.inside-must-see h4 {
+    color: white;
+}
+
+.color-orange {
+    color: darkorange;
+}
+
+footer {
+    width: 100%;
+    background-color: #222525;
+
+}
+.footer-maindiv {
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.footer-maindiv li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px; 
+  
+}
+
+.footer-maindiv ul {
+    padding-left: 600px;
+}
+
+.footer-maindiv table {
+    padding: 30px;
+}
+
+.footer-maindiv th, td{
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
